@@ -50,13 +50,6 @@ def hit?(total)
       total
   end
 
-    when 'h'
-      total+=deal_card
-      total
-    end
-    when 's'
-      total
-    end
 
 end
 
