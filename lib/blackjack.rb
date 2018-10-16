@@ -42,12 +42,22 @@ def hit?(total)
   prompt_user
   choice=get_user_input
   case choice
+<<<<<<< HEAD
   when 'h'
       total+=deal_card
       total
   when 's'
       total
   end
+=======
+    when 'h'
+      total+=deal_card
+      total
+    end
+    when 's'
+      total
+    end
+>>>>>>> 345f457047e75f7e7dc1091ee76018b18a5209a7
 end
 
 def invalid_command
